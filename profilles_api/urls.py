@@ -9,6 +9,7 @@ from profilles_api import views
 router = DefaultRouter()
 # router.register('hello-viewset', views.HelloViewSet, 'hello-viewset')
 router.register('profile', views.UserProfileViewSet)
+router.register('feed', views.UserProfileFeedItem)
 
 
 
